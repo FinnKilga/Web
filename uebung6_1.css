@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+.headlineContainer{
+    background-color: lightblue;
+    border-style: solid;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.greenBlock{
+    background-color: green;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    bottom: -2px;
+    right: -2px;
+    }
+.flexBoxContainer {
+    border-style: solid;
+    background-color: yellow;
+    position: relative;
+    top: 50px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox {
+
+    background-color: lightgreen;
+    height: 20px;
+    width: 40px;
+    border-style: solid;
+    margin: 70px;
+}
+.blackBlock
+{
+    background-color: black;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -10px;
+    left: -10px;
+}

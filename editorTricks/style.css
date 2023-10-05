@@ -1,0 +1,14 @@
+        /*Element Selektor*/
+        div {
+            background-color: aquamarine;
+        }
+
+        /*id Selektor*/
+        #header {
+            font-size: 2rem;
+        }
+
+        /*Klassenselector*/
+        .subtitle {
+            color: blue;
+        }

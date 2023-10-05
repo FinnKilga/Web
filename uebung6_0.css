@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.flexBoxContainer {
+    border-style: solid;
+    background-color: yellow;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.flexbox {
+
+    background-color: lightgreen;
+    height: 30px;
+    width: 30px;
+    border-style: solid;
+    margin: 10px;
+}
+
+.headlineContainer{
+    background-color: lightblue;
+    border-style: solid;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.headline{
+    font-size: 2.5rem;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.brownBlock{
+    background-color: brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    bottom: -2px;
+    right: -2px;
+    }
+.purpleBlock{
+    background-color: purple;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    bottom: 0px;
+    right: 0px;
+}
