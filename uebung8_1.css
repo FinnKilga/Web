@@ -1,0 +1,63 @@
+div {
+    border: 2px solid black;
+}
+
+.flexBox {
+    position: relative;
+    background-color: lightgray;
+    margin: 50px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.boxklein {
+    background-color: gray;
+    height: 75px;
+    width: 75px;
+}
+
+.boxBottom {
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    float: left; /*divs nebeneinander*/
+    width: 32%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 20px;
+    background: red;
+    box-sizing: border-box;
+}
+
+.box:last-child {
+    margin-right: 0;
+}
+
+
+
+@media(max-width:800px) {
+    .flexBox {
+        height: 300px;
+        width: 100px;
+        grid-template-columns: 100%;
+    }
+
+    .boxklein {
+        height: 50px;
+        width: 50px;
+    }
+
+    .boxBottom {
+        background-color: red;
+        width: 32%;
+        /* Ändern Sie die Breite auf 32% */
+        margin-bottom: 5%;
+        padding: 20px;
+        box-sizing: border-box;
+        clear: both;/*Boxen untereinander*/
+    }
+}
