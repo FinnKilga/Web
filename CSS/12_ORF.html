@@ -6,39 +6,160 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ORF Vorarlberg</title>
     <link rel="stylesheet" href="CSSReset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="12_ORF.css">
+    <style>
+        * {
+            font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode, Lucida Grande, sans-serif;
+            font-feature-settings: "liga", "kern";
+            font-size: 14px;
+        }
+
+        .menu {
+            background-color: #9E0B0F;
+            width: 100vw;
+            height: 20px;
+            display: flex;
+            justify-content: space-evenly;
+            color: white;
+            padding: 5px;
+        }
+
+        .menu button {
+            background-color: #9E0B0F;
+            border-style: none;
+            color: white;
+        }
+
+        .menu button:hover {
+            opacity: 0.7;
+            text-decoration: underline;
+        }
+
+        #menu-österreich-button {
+            opacity: 0.7;
+        }
+
+        .logo-banner {
+            display: grid;
+            width: 100vw;
+            grid-template-columns: 17% 1fr;
+            height: 75px;
+            background-color: #BB131A;
+            color: white;
+            align-items: center;
+            padding: 10px;
+            padding-left: 20px;
+            font-size: 1.9rem;
+        }
+
+
+        .auswahlWrapper {
+            display: grid;
+            min-height: auto;
+            margin-bottom: 10px;
+        }
+
+
+        #auswahl-topStripe {
+            width: 100vw;
+            height: 12px;
+            background: #D32824;
+            border-bottom: 3px solid #E94E38;
+        }
+
+        .Auswahl {
+            display: flex;
+            background-color: #790000;
+            color: white;
+            justify-content: space-evenly;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+
+        .Auswahl button {
+            background-color: #790000;
+            border-style: none;
+            color: white;
+        }
+
+        .news-container {
+            display: flex;
+            flex-direction: column;
+            width: 800px;
+            height: auto;
+        }
+
+
+        .news-text-container {
+            position: relative;
+            align-self: center;
+            padding: 20px;
+            background-color: white;
+            top: -100px;
+            width: 650px;
+        }
+
+        .catagory {
+            color: #84868c;
+            text-transform: uppercase;
+            font-size: 1.125rem;
+        }
+
+        .headline {
+            font-size: 2.25rem;
+            line-height: 2.7rem;
+            font-weight: bold;
+        }
+
+        .short-text {
+            font-weight: 500;
+            font-size: 1.125rem;
+            line-height: 1.6875rem;
+            font-weight: 400;
+        }
+    </style>
 
 </head>
 
 <body>
     <div class="menu">
-        <div>Fernsehen</div>
-        <div>TVthek</div>
-        <div>Radiothek</div>
-        <div>Debatte</div>
-        <div>Österreich</div>
-        <div>Wetter</div>
-        <div>Sport</div>
-        <div>News</div>
-        <div>ORF.at im Überblick</div>
+        <button>Fernsehen</button>
+        <button>TVthek</button>
+        <button>Radiothek</button>
+        <button>Debatte</button>
+        <button id="menu-österreich-button">Österreich</button>
+        <button>Wetter</button>
+        <button>Sport</button>
+        <button>News</button>
+        <button>ORF.at im Überblick</button>
     </div>
-    <div class="logo">
-        <div>Vorarlberg</div>
-        <div>Logo</div>
+    <div class="logo-banner">
+        <div>vorarlberg</div>
+        <img id="logo" src="orf_logo.svg" alt="orf_logo" width="100" height="50">
+
     </div>
-    <div class="Auswahl">
-        <div>Vorarlberg-News</div>
-        <div>Radio Vorarlberg</div>
-        <div>Vorarlberg heute</div>
-        <div>ORF Vorarlberg</div>
-        <div>Ganz Österreich</div>
-        <div>Glocke</div>
+    <div class="auswahlWrapper">
+        <div id="auswahl-topStripe"></div>
+        <div class="Auswahl">
+            <button>Vorarlberg-News</button>
+            <button>&xvee; Radio Vorarlberg</button>
+            <button>&xvee; Vorarlberg heute</button>
+            <button>&xvee; ORF Vorarlberg</button>
+            <button>Ganz Österreich</button>
+            <button>
+                <i class="fas fa-bell"></i>
+            </button>
+        </div>
     </div>
-    <div class="News">
-        <div>Picture</div>
-        <div>Coronavirus
-            <div>19 neue Infektionen und ein Todesopfer</div>
-            <div>Laut der Landessanitätsdirektion wurde in Vorarlberg seit dem Vortag</div>
+    <div class="news-container">
+        <img src="orf_news.jpg" alt="Coronatest" class="corona-test-img">
+        <div class="news-text-container">
+            <p class="catagory">Coronavirus</p>
+            <p class="headline">19 neue Infektionen und ein Todesopfer</p>
+            <p class="short-text">Laut der Landessanitätsdirektion wurde in Vorarlberg seit dem Vortag (Stand: 16.00
+                Uhr) 19 neue Infektionen mit dem Coronavirus nachgewiesen. Außerdem ist ein weiteres Todesopfer zu
+                beklagen.</p>
         </div>
     </div>
 
