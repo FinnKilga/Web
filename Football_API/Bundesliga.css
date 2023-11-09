@@ -1,0 +1,15 @@
+body{
+    background-color: #2B3434;
+}
+.sticky-menu{
+    background-color: #171C1C;
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+div{
+    font-size: 20px;
+    color: #DEF5FF;
+}

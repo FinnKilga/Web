@@ -1,4 +1,4 @@
-//06+08
+//Excercise 06+08
 
 let randomNumber = Math.random() * 5 + 5;
 
