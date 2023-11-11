@@ -1,15 +1,40 @@
 body{
     background-color: #2B3434;
 }
-.sticky-menu{
+h1{
+    font-weight:100;
+  }
+  strong{
+    font-weight: 900;
+  }
+div{
+    font-size: 40px;
+    color: #DEF5FF;
+}
+.fixed-menu{
+    position: fixed;
     background-color: #171C1C;
     height: 50px;
     width: 100vw;
     position: fixed;
     top: 0;
     left: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap: 50px;
 }
-div{
+.links{
+    display: flex;
     font-size: 20px;
+    gap: 15px;
     color: #DEF5FF;
+}
+a{
+    text-decoration: none;
+    color: #DEF5FF;
+}
+a:hover{
+    text-decoration: underline;
+color: #4DB4FF;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,45 @@
     <link rel="stylesheet" href="Bundesliga.css">
     <link rel="stylesheet" href="Tabelle.css">
 </head>
+
 <body>
-    <div class="sticky-menu">
-        <div>BundesLiga</div>
+    <div class="fixed-menu">
+        <h1>
+            <strong>Bundes</strong>Liga
+        </h1><!--Name der Website nur noch Schriftart ändern + wie Bundes bold?-->
+        <div class="links">
+            <a id="tabelle-link" href="Tabelle.html">Tabelle</a>
+            <a href="Clubs.html">Clubs</a>
+        </div>
     </div>
+    <h1 id="headline">Tabelle</h1>
+
+
+    <div class="flex-tabelle">
+        <div class="Zeile">
+            <div class="mannschaft"><!--links (bekommt Platz, soviel es braucht)-->
+                <div id="platzierung"></div>
+                <div id="logo"></div>
+                <div id="name"></div>
+            </div>
+
+            <div class="abstand"></div><!--mitte (unterschiedlich groß)-->
+
+            <div class="infos"><!--rechts (immer gleich groß)-->
+                <div id="spiele"></div>
+                <div id="siege"></div>
+                <div id="unentschieden"></div>
+                <div id="niederlagen"></div>
+                <div id="tore"></div>
+                <div id="differenz"></div>
+                <div id="punkte"></div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="legende"></div>
 </body>
+
 </html>
