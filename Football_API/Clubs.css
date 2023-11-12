@@ -1,0 +1,21 @@
+* {
+    color: #DEF5FF;
+}
+
+.grid-all-clubs {
+    display: grid;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 50px;
+    grid-template-columns: 33% 33% 33%;
+    height: auto;
+    width: auto;
+    grid-template-rows: 33% 33% 33%;
+    row-gap: 30px;
+}
+
+.club {
+    background-color: #4DB4FF;
+    height: 150px;
+    width: 420px;
+}
