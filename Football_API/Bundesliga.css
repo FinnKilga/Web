@@ -3,6 +3,7 @@ body {
 }
 
 h1 {
+    font-family: 'Inria Sans', sans-serif;
     font-weight: 100;
 }
 
@@ -11,6 +12,7 @@ strong {
 }
 
 div {
+    font-family: 'Inria Sans', sans-serif;
     font-size: 40px;
     color: #DEF5FF;
 }

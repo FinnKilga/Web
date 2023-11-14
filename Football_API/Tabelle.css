@@ -1,10 +1,38 @@
-#headline{
-    font-size: 40px;
-    margin-top: 70px;
-    margin-left: 40px;
-    color: #DEF5FF;
+.flex-tabelle {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-left: 190px;
 }
-#tabelle-link{
-    text-decoration: underline;
-    color: #4DB4FF;
+
+.zeile {
+    background-color: #4DB4FF;
+    height: 50px;
+    width: 900px;
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: auto 1fr auto;
+}
+
+.abstand {
+    grid-column: 2;
+}
+
+.infos {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    column-gap: 25px;
+    margin-right: 25px;
+}
+
+.info {
+    font-size: 20px;
+}
+
+#zeile-null {
+    width: 900px;
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: auto 1fr auto;
 }
