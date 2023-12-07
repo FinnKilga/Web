@@ -4,7 +4,12 @@
     row-gap: 15px;
     margin-left: 190px;
 }
-
+.logo{
+    height:40px;
+    margin-left: 50px;
+    position: relative;
+    top: -35px;
+}
 .zeile {
     background-color: #4DB4FF;
     height: 50px;
@@ -12,10 +17,7 @@
     display: grid;
     border-radius: 10px;
     grid-template-columns: auto 1fr auto;
-}
-
-.abstand {
-    grid-column: 2;
+    justify-content: center;
 }
 
 .infos {
@@ -23,16 +25,29 @@
     flex-direction: row;
     position: relative;
     column-gap: 25px;
-    margin-right: 25px;
+    position: relative;
+    right: -30px;
 }
 
 .info {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #zeile-null {
     width: 900px;
-    display: grid;
+    display: flex;
     border-radius: 10px;
-    grid-template-columns: auto 1fr auto;
+    margin-left: 680px;
+}
+
+#platzierung{
+    margin-left: 10px;
+}
+#name{
+    width: 380px;
+    font-size: 30px;
+    position: relative;
+    top: -80px;
+    z-index: 1;
+    margin-left: 110px;
 }

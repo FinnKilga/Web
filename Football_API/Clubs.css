@@ -2,15 +2,14 @@
     color: #DEF5FF;
 }
 
-.grid-all-clubs {
+#content {
     display: grid;
     position: relative;
     margin-left: 40px;
-    margin-top: 50px;
+    margin-top: 40px;
     grid-template-columns: 33% 33% 33%;
     height: auto;
     width: auto;
-    grid-template-rows: 33% 33% 33%;
     row-gap: 30px;
 }
 
@@ -18,5 +17,16 @@
     background-color: #4DB4FF;
     height: 150px;
     width: 420px;
-    border-radius: 10px
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height:90%;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.name{
+    font-size: 30px;
 }
