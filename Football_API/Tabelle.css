@@ -38,6 +38,7 @@
     display: flex;
     border-radius: 10px;
     margin-left: 680px;
+    margin-bottom: 10px;
 }
 
 #platzierung{
@@ -50,4 +51,11 @@
     top: -80px;
     z-index: 1;
     margin-left: 110px;
+}
+.legende{
+    font-size: 20px;
+    margin-left: 40px;
+}
+#legende{
+    margin-top: 10px;
 }
