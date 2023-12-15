@@ -4,3 +4,18 @@
     margin-bottom: 15px;
 
 }
+.main:hover{
+    cursor: pointer;
+}
+.isOn{
+    border-style: solid;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: aqua;
+    color: black;
+}
+.isOff{
+    border-style: solid;
+    padding: 10px;
+    margin-bottom: 15px;
+}
